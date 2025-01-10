@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Fira Sans", serif;
+    
+}
+/* shared style */
+.bg-color{
+    background-color: #f5f5f5;
+}
+.btn-primary{
+    font-size: 22px;
+    text-decoration: none;
+    padding:15px 30px;
+    border:1px solid #006A50;
+    color: #006A50;
+    border-radius: 8px;
+    outline: none;
+}
+.btn-primary:hover{
+    background-color: #006A50;
+    color:#fff;
+    border: 2px solid #ff0000;
+}
+.btn-secondary{
+    font-size: 22px;
+    text-decoration: none;
+    padding:15px 30px;
+    border:1px solid #006A50;
+    color: #ffffff;
+    background-color: #006A50;
+    border-radius: 8px;
+    outline: none;
+}
+.btn-secondary:hover{
+    background-color: #fff;
+    color: #006A50;
+    border: 1px solid red;
+}
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:16px 160px;
+
+}
+nav .navtittle{
+    font-size: 32px;
+    font-weight: bold;
+}
+/* banner-style */
+.banner{
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #C6E4D6;
+    padding: 50px 60px;
+    border-radius: 24px;
+}
+.banner .banner-subtittle{
+    font-size: 22px;
+}
+.banner .banner-heading{
+    width: 450px;
+}
+.banner h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.banner img{
+    width: 450px;
+}
+.vision{
+    width: 960px;
+    margin:50px auto;
+    padding: 50px 60px;
+    /* background-color: #D5D6D8; */
+    border-radius: 16px;
+}
+.vision .vision-tittle{
+    font-size: 25px;
+}
+.vision .vision-description{
+    font-size: 14px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+    
+}
+.card img{
+    width: 45px;
+}
+.card1{
+    background-color: #f7c9aa;
+    padding: 32px;
+    border-radius: 16px;
+}
+.card2{
+    background-color: #b8fad4;
+    padding: 32px;
+    border-radius: 16px;
+}
+.card3{
+    background-color: #9dca9b;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.card  .card-tittle{
+    
+    font-weight: bold;
+}
+.card .card-description{
+    font-size: 14px;
+    
+}
+.card1 button{
+    background-color: #88818f;
+    color:white;
+    padding:11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.card2 button{
+    background-color: #09A15C;
+    color:white;
+    padding:11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.card3 button{
+    background-color: #09A15C;
+    color:white;
+    padding:11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.card1 button:hover{
+    background-color: #ffffff;
+    color:#000000;
+}
+.card2 button:hover{
+    background-color: #c7f344;
+    color:#000000;
+}
+.card3 button:hover{
+    background-color: #00a2ff;
+    color:#000000;
+}
