@@ -29,7 +29,7 @@
 .btn-primary:hover{
     background-color: #006A50;
     color:#fff;
-    border: 1px solid #ff0000;
+    border: 1px solid #006A50;
 }
 .btn-secondary{
     font-size: 22px;
@@ -52,7 +52,7 @@
 .btn-secondary:hover{
     background-color: #fff;
     color: #006A50;
-    border: 1px solid red;
+    border: 1px solid #006A50;
 }
 .btn-success:hover{
     background-color: #fff;
@@ -189,4 +189,52 @@ nav .navtittle{
 .vision-quote .sub-tittle{
     font-size: 16px;
     margin: 0 0;
+}
+.recent-news .tittle{
+    font-size: 30px;
+    font-weight: bold;
+}
+.recent-news .description{
+    font-size: 14px;
+
+}
+.recent-news .recent-news-column .column1{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0px;
+    padding:30px;
+    background-color: #fff;
+    border-radius: 24px;
+}
+.recent-news .recent-news-column .column2{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0px;
+    padding:30px;
+    background-color: #fff;
+    border-radius: 24px;
+}
+
+.recent-news-column img{
+    width: 300px;
+    border-radius: 24px;
+    
+    
+}
+.recent-news-column .satelite-description{
+    width: 600px;
+    padding-left: 30px;
+}
+.recent-news-column .satelite-description img{
+    width: 130px;
+    
+}
+.recent-news-column .satelite-description h1{
+    margin:0;
+}
+.recent-news-column .satelite-description .sub-tittle{
+    margin:0;
+}
+.recent-news-column .satelite-description .description{
+    font-size: 14px;
 }
