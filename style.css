@@ -10,7 +10,9 @@
 .bg-primary{
     background-color: #fff;
 }
-
+.bg-secondary{
+    background-color: #C6E4D6; 
+}
 .section{
     width: 960px;
     margin:50px auto;
@@ -29,7 +31,7 @@
 .btn-primary:hover{
     background-color: #006A50;
     color:#fff;
-    border: 1px solid #006A50;
+    border: 1px solid #ff0000;
 }
 .btn-secondary{
     font-size: 22px;
@@ -60,7 +62,15 @@
     border: 1px solid red;
 }
 
-
+.full-width-input{
+    width: 100%;
+    outline: none;
+    background-color: white;
+    text-align: center;
+    padding: 15px 0px;
+    border: none;
+    margin-bottom: 10px;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -159,12 +169,13 @@ nav .navtittle{
     color:#000000;
 }
 .card2 button:hover{
-    background-color: #c7f344;
+    background-color: #00ff04;
     color:#000000;
 }
 .card3 button:hover{
     background-color: #00a2ff;
     color:#000000;
+
 }
 .vision-quote{
     margin:50px 0;
@@ -237,4 +248,71 @@ nav .navtittle{
 }
 .recent-news-column .satelite-description .description{
     font-size: 14px;
+}
+.donate-section {
+    text-align: center;
+}
+
+.donate-section .tittle{
+    font-size: 30px;
+    font-weight: bold;
+}
+.donate-section .description{
+    font-size: 14px;
+}
+.donate-section .donate-amounts{
+    display: flex;
+    justify-content: space-around;
+}
+.donate-section .donate-amounts h1{
+    padding: 25px;
+   border-radius: 16px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.newsletter-section{
+  text-align: center;
+  background-color: #C6E4D6;  
+  padding: 40px 30px;
+ 
+}
+.newsletter-section h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.newsletter-section p{
+    font-size: 18px;
+    word-spacing: 5px;
+}
+
+.newsletter-section .newsletter-email{
+    width: 70%;
+    outline: none;
+    background-color: white;
+    font-size: 14px;
+   
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.newsletter-section .btn-subscribe{
+   width: 20%;
+    position: relative;
+    right: 2%;
+    outline: none;
+    background-color: #006A50;
+    text-align: center;
+    padding: 20px;
+    border: none;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.newsletter-section .btn-subscribe:hover{
+    background-color: #00a2ff;
+    
 }
